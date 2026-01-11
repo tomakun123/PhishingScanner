@@ -1,0 +1,75 @@
+From: "Netflix Billing" <billing@netfIix-support.example>
+To: "Thomas" <thomas@example.com>
+Reply-To: "Netflix Support" <support-team@helpdesk-alerts.example>
+Subject: Action Required: Payment failed - Update billing within 24 hours
+Date: Sat, 10 Jan 2026 19:05:00 -0500
+Message-ID: <20260110190500.12345@mail.phishlab.thomasmotaisportfolio.net>
+MIME-Version: 1.0
+Content-Type: multipart/mixed; boundary="mix-BOUNDARY-001"
+Return-Path: <bounce@mailer.netfIix-support.example>
+Received: from mail.phishlab.thomasmotaisportfolio.net (mail.phishlab.thomasmotaisportfolio.net [203.0.113.10])
+        by mx.example.com with ESMTP id ABC123DEF456
+        for <thomas@example.com>; Sat, 10 Jan 2026 19:05:03 -0500
+Received: from unknown (unknown [198.51.100.25])
+        by mail.phishlab.thomasmotaisportfolio.net with ESMTP id 999AAA111
+        for <thomas@example.com>; Sat, 10 Jan 2026 19:05:01 -0500
+
+--mix-BOUNDARY-001
+Content-Type: multipart/alternative; boundary="alt-BOUNDARY-002"
+
+--alt-BOUNDARY-002
+Content-Type: text/plain; charset="UTF-8"
+Content-Transfer-Encoding: 7bit
+
+Hi Thomas,
+
+We couldn't process your last payment. To avoid service interruption, please update your billing details within 24 hours.
+
+Update billing: https://example.com/account/verify?ref=INV-48291
+
+If you didn't request this, ignore this email.
+
+Thanks,
+Netflix Billing Team
+
+--alt-BOUNDARY-002
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: 7bit
+
+<html>
+  <body style="font-family: Arial, sans-serif; line-height: 1.4;">
+    <p>Hi Thomas,</p>
+    <p>
+      We couldn't process your last payment. To avoid service interruption, please update your billing
+      details within <b>24 hours</b>.
+    </p>
+
+    <p>
+      <!-- Display text vs actual href mismatch (safe domain only) -->
+      <a href="https://example.com/account/verify?ref=INV-48291">
+        https://netflix.com/billing/update
+      </a>
+    </p>
+
+    <p style="color:#666;">
+      If you didn't request this, you can ignore this email.
+    </p>
+
+    <hr />
+    <p style="font-size: 12px; color:#888;">
+      Ticket: INV-48291<br/>
+      Sent from an automated system. Do not reply.
+    </p>
+  </body>
+</html>
+
+--alt-BOUNDARY-002--
+
+--mix-BOUNDARY-001
+Content-Type: application/octet-stream; name="invoice_details.txt"
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment; filename="invoice_details.txt"
+
+VGhpcyBpcyBhIHNhZmUsIGZha2UgYXR0YWNobWVudCBmb3IgdGVzdGluZy4KTm8gbWFsd2FyZSBpcyBpbmNsdWRlZC4KUmVmOiBJTlYtNDgyOTEK
+
+--mix-BOUNDARY-001--

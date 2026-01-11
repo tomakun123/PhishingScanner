@@ -1,0 +1,6 @@
+{
+  "verdict": "string from [dangerous, caution, safe]", 
+  "score": "from 0-100",
+  "reasons": [],
+  "signals": {}
+}

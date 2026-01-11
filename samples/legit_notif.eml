@@ -1,0 +1,62 @@
+From: "Dropbox Notifications" <no-reply@dropbox.example>
+To: "Thomas" <thomas@example.com>
+Reply-To: "Dropbox Support" <support@dropbox.example>
+Subject: Your file has been successfully uploaded
+Date: Sat, 10 Jan 2026 19:18:00 -0500
+Message-ID: <20260110191800.67890@mail.phishlab.thomasmotaisportfolio.net>
+MIME-Version: 1.0
+Content-Type: multipart/alternative; boundary="alt-BOUNDARY-100"
+Return-Path: <no-reply@dropbox.example>
+Received: from mail.phishlab.thomasmotaisportfolio.net (mail.phishlab.thomasmotaisportfolio.net [203.0.113.10])
+        by mx.example.com with ESMTP id LEGIT123456
+        for <thomas@example.com>; Sat, 10 Jan 2026 19:18:02 -0500
+Received: from app-server.dropbox.example (app-server.dropbox.example [198.51.100.50])
+        by mail.phishlab.thomasmotaisportfolio.net with ESMTP id LEGIT654321
+        for <thomas@example.com>; Sat, 10 Jan 2026 19:18:00 -0500
+
+--alt-BOUNDARY-100
+Content-Type: text/plain; charset="UTF-8"
+Content-Transfer-Encoding: 7bit
+
+Hi Thomas,
+
+Your file "CS_Notes_Week1.pdf" was successfully uploaded to your Dropbox account.
+
+You can view your files here:
+https://example.com/files
+
+If you did not perform this action, please contact Dropbox Support.
+
+Thanks,
+Dropbox Team
+
+--alt-BOUNDARY-100
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: 7bit
+
+<html>
+  <body style="font-family: Arial, sans-serif; line-height: 1.5;">
+    <p>Hi Thomas,</p>
+
+    <p>
+      Your file <b>CS_Notes_Week1.pdf</b> was successfully uploaded to your Dropbox account.
+    </p>
+
+    <p>
+      <a href="https://example.com/files">
+        View your files
+      </a>
+    </p>
+
+    <p style="color:#555;">
+      If you did not perform this action, please contact Dropbox Support.
+    </p>
+
+    <hr />
+    <p style="font-size:12px; color:#888;">
+      This is an automated message. Please do not reply.
+    </p>
+  </body>
+</html>
+
+--alt-BOUNDARY-100--
